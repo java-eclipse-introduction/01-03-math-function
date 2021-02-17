@@ -7,6 +7,9 @@ public class MyTemperatureChange {
 		// M2.01 A hõmérséklet 0 fokról -8 fokra változott. 
 		//       Mekkora hõmérsékletváltozásról van szó? 
 
+		// M2.02 Eltároljuk a hõmérséklet értékeket!
+		int startingTemperature=0;
+		int finalyTemperature=8;
 	}
 
 }
