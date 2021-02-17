@@ -7,6 +7,11 @@ public class MySinusTheorem {
 		// M4.01 Matematikai feladat megoldása sinus tétellel
 		//       A feladat elérhetõsége: https://www.geogebra.org/m/TVa6MHE9
 
+		// M4.02 Megadjuk az ismert adatokat
+		int a=10;
+		int b=8;
+		int alfaDegrees=122;	
+
 	}
 
 }
