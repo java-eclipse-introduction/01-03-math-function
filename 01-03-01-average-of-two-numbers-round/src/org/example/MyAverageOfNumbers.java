@@ -10,7 +10,8 @@ public class MyAverageOfNumbers {
 		int c=2;
 
 		// M1.02 Az átlag képlete.
-		float average=(a+b+c)/3;		
+		// M1.04 Mivel az átlag valós szám, az osztás elõtt típuskényszerítést használunk!
+		float average=((float)(a+b+c))/3;
 		
 		// M1.03 Az eredmény nem pontos!	
 		System.out.println(a+","+b+","+c+" számok átlaga: "+average);						
