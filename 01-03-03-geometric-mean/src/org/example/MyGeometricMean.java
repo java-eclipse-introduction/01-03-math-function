@@ -10,6 +10,8 @@ public class MyGeometricMean {
 
 		// M3.02 Határozzuk meg a három szám mértani közepét gyökvonással!
 		double geometricMean=Math.sqrt(a*b);
-	}
 
+		// M3.03 Az eredmény
+		System.out.println(a+","+b+" számok mértani közepe: "+geometricMean);			
+	}
 }
