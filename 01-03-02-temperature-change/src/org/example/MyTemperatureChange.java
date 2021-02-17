@@ -10,6 +10,11 @@ public class MyTemperatureChange {
 		// M2.02 Eltároljuk a hõmérséklet értékeket!
 		int startingTemperature=0;
 		int finalyTemperature=8;
+
+		// M2.03 Meghatározzuk a hõmérséklet változást! 	
+		System.out.println("A hõmérséklet "+startingTemperature+" °C-ról "+finalyTemperature+" °C-re változott!");
+		int wrongTemperatureChange=startingTemperature-finalyTemperature;
+		
 	}
 
 }
