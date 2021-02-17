@@ -1,5 +1,8 @@
 package org.example;
 
+//M4.07 Szükséges csomag importálás
+import java.text.DecimalFormat;
+
 public class MySinusTheorem {
 
 	public static void main(String[] args) {
