@@ -17,6 +17,9 @@ public class MyTemperatureChange {
 		
 		// M2 04 Ez az eredmény kifejezi, a változás irányát is, mivel a szám negatív!		
 		System.out.println("A hõmérséklet változás iránya és mérétéke "+wrongTemperatureChange+" °C.");		
-	}
+		
+		// M2.05 Ha csak a hõmérsékletváltozás értékére van szükségünk,
+		// 		 akkor a változás abszolút értékét számoljuk ki!
+		int temperatureChange=Math.abs(startingTemperature-finalyTemperature);	}
 
 }
