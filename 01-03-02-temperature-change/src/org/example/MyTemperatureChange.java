@@ -15,6 +15,8 @@ public class MyTemperatureChange {
 		System.out.println("A hõmérséklet "+startingTemperature+" °C-ról "+finalyTemperature+" °C-re változott!");
 		int wrongTemperatureChange=startingTemperature-finalyTemperature;
 		
+		// M2 04 Ez az eredmény kifejezi, a változás irányát is, mivel a szám negatív!		
+		System.out.println("A hõmérséklet változás iránya és mérétéke "+wrongTemperatureChange+" °C.");		
 	}
 
 }
