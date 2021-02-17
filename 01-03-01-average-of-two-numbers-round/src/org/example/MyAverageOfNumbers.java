@@ -1,5 +1,7 @@
 package org.example;
 
+import java.text.DecimalFormat;
+
 public class MyAverageOfNumbers {
 
 	public static void main(String[] args) {
@@ -21,5 +23,9 @@ public class MyAverageOfNumbers {
 		
 		// M1.07 A kerekített átlag tizedes ponttal jelenik meg!
 		System.out.println(a+","+b+","+c+" számok kerekített átlaga: "+roundedAverage );				
+
+	    // M1.08 Az eredmény két tizedes jegy formátumban kiírva
+		DecimalFormat df=new DecimalFormat("##.00");
+		System.out.println("Az eredmény két tizedes jegyen megjelenítve: "+df.format(average));					
 	}	
 }
