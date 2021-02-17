@@ -14,7 +14,9 @@ public class MyAverageOfNumbers {
 		float average=((float)(a+b+c))/3;
 		
 		//  M1.05 Mostmár az eredmény pontos!	
-		System.out.println(a+","+b+","+c+" számok átlaga: "+average);						
-		}
-	
+		System.out.println(a+","+b+","+c+" számok átlaga: "+average);		
+		
+		// M1.06 Kerekítsük a számot két tizedes jegyre! A Math osztályt használjuk!
+		float roundedAverage =Math.round(average*100)/(float)100;		
+	}	
 }
