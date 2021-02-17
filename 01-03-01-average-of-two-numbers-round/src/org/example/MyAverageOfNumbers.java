@@ -8,6 +8,9 @@ public class MyAverageOfNumbers {
 		int a=5;
 		int b=4;
 		int c=2;
+
+		// M1.02 Az átlag képlete.
+		float average=(a+b+c)/3;		
 	}
 
 }
