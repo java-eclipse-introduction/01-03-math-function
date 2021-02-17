@@ -12,6 +12,8 @@ public class MySinusTheorem {
 		int b=8;
 		int alfaDegrees=122;	
 
+		// M4.03 Meghatározzuk, hgoy a 122 fok az mennyi radián. 
+		double alfaRadian=Math.toRadians(alfaDegrees);		
 	}
 
 }
