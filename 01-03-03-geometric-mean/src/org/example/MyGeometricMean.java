@@ -7,6 +7,9 @@ public class MyGeometricMean {
 		// M3.01 Határozzuk meg két szám mértani közepét
 		int a=5;
 		int b=3;	
+
+		// M3.02 Határozzuk meg a három szám mértani közepét gyökvonással!
+		double geometricMean=Math.sqrt(a*b);
 	}
 
 }
