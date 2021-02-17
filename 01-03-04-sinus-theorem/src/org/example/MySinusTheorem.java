@@ -14,6 +14,10 @@ public class MySinusTheorem {
 
 		// M4.03 Meghatározzuk, hgoy a 122 fok az mennyi radián. 
 		double alfaRadian=Math.toRadians(alfaDegrees);		
+
+		// M4.04 Alkalmazzuk a feladatban meghatározott képleteket (sin és asin is bennük).
+		double sinbetaRadian=8*Math.sin(alfaRadian)/10;		
+		double betaRadian=Math.asin(sinbetaRadian);			
 	}
 
 }
