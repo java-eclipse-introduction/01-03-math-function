@@ -23,6 +23,11 @@ public class MySinusTheorem {
 		System.out.println("Beta:"+betaRadian+" radian.");
 		double betaDegree=Math.toDegrees(betaRadian);
 		System.out.println("Beta:"+betaDegree+" fok.");		
+
+		// M4.06 Az eredmény két tizedes jegyre kerekítve.
+		DecimalFormat df=new DecimalFormat("#.00");
+		System.out.println("Beta:"+df.format(betaDegree)+" fok.");		
+	
 	}
 
 }
