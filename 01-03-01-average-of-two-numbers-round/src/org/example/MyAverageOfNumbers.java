@@ -18,5 +18,8 @@ public class MyAverageOfNumbers {
 		
 		// M1.06 Kerekítsük a számot két tizedes jegyre! A Math osztályt használjuk!
 		float roundedAverage =Math.round(average*100)/(float)100;		
+		
+		// M1.07 A kerekített átlag tizedes ponttal jelenik meg!
+		System.out.println(a+","+b+","+c+" számok kerekített átlaga: "+roundedAverage );				
 	}	
 }
