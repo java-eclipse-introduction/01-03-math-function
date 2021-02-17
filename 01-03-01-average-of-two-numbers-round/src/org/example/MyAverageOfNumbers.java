@@ -11,6 +11,9 @@ public class MyAverageOfNumbers {
 
 		// M1.02 Az átlag képlete.
 		float average=(a+b+c)/3;		
-	}
+		
+		// M1.03 Az eredmény nem pontos!	
+		System.out.println(a+","+b+","+c+" számok átlaga: "+average);						
+		}
 
 }
