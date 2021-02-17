@@ -18,6 +18,11 @@ public class MySinusTheorem {
 		// M4.04 Alkalmazzuk a feladatban meghatározott képleteket (sin és asin is bennük).
 		double sinbetaRadian=8*Math.sin(alfaRadian)/10;		
 		double betaRadian=Math.asin(sinbetaRadian);			
+
+		// M4.05 Az eredmény radiánban és fokban megadva.
+		System.out.println("Beta:"+betaRadian+" radian.");
+		double betaDegree=Math.toDegrees(betaRadian);
+		System.out.println("Beta:"+betaDegree+" fok.");		
 	}
 
 }
