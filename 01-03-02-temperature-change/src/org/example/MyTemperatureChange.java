@@ -20,6 +20,9 @@ public class MyTemperatureChange {
 		
 		// M2.05 Ha csak a hõmérsékletváltozás értékére van szükségünk,
 		// 		 akkor a változás abszolút értékét számoljuk ki!
-		int temperatureChange=Math.abs(startingTemperature-finalyTemperature);	}
+		int temperatureChange=Math.abs(startingTemperature-finalyTemperature);	
 
+		// M2.07 Írjuk ki az eredményt!		
+		System.out.println("A hõmérséklet változás mértéke "+temperatureChange+" °C."); 
+	}
 }
